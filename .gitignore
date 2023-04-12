@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+.vscode
+__pycache__
+/secrets
+/sensitive_data
+/data
+.env
+/wandb
+/models
+/temp

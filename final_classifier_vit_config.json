@@ -1,0 +1,16 @@
+{
+    "architecture": "vit",
+    "batch_size": 32,
+    "class_annot_weight": 1,
+    "learning_rate": 5e-6,
+    "weight_decay": 1e-3,
+    "no_epochs": 100,
+    "scheduler_steps": [
+        [80, 1],
+        [100, [1, 0]]
+    ],
+    "cuda_number": 0,
+    "evaluation": false,
+    "new_mask": true,
+    "out_of_page_mask_value": 0
+}

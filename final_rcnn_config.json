@@ -1,0 +1,12 @@
+{
+    "learning_rate": 2e-5,
+    "weight_decay": 1e-4,
+    "class_annot_weight": 1,
+    "no_epochs": 50,
+    "scheduler_steps": [
+        [35, 1],
+        [50, [1, 0]]
+    ],
+    "cuda_number": 0,
+    "evaluation": false
+}
